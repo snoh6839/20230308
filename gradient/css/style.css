@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+div {
+    height: 200px;
+}
+
+.gal {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin: 50px 10px;
+}
+
+.linearG {
+    background: linear-gradient(#FFACAC, #FFBFA9, #FFEBB4, #FBFFB1);
+}
+
+.linearG2 {
+    background: linear-gradient(to left, #FFACAC, #FFBFA9, #FFEBB4, #FBFFB1);
+}
+
+.linearG3 {
+    background: linear-gradient(45deg, #FFACAC, #FFBFA9, #FFEBB4, #FBFFB1);
+}
+
+.radialG1 {
+    background: radial-gradient(#3E54AC, #655DBB, #BFACE2);
+}
+
+.radialG2 {
+    background: radial-gradient(circle, #3E54AC, #655DBB, #BFACE2);
+}
+
+.radialG3 {
+    background: radial-gradient(circle closest-side, #3E54AC, #655DBB, #BFACE2);
+}
+
+.radialG4 {
+    background: radial-gradient(circle farthest-corner, #3E54AC, #655DBB, #BFACE2);
+}
+
+.radialG5 {
+    background: radial-gradient(circle closest-corner, #3E54AC, #655DBB, #BFACE2);
+}
+
+.radialG6 {
+    background: radial-gradient(circle farthest-side, #3E54AC, #655DBB, #BFACE2);
+}

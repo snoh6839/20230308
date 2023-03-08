@@ -1,0 +1,725 @@
+@charset "utf-8";
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+section#container {
+    width: 100%;
+    height:100vh;
+    color: #000;
+    overflow: hidden;
+}
+
+section#container div {
+    width: 8%;
+    height: 8%;
+    margin: 1%;
+    line-height: 18%;
+    float: left;
+    position: relative;
+    animation: rotate linear infinite;
+    transition: all 0.666s;
+}
+
+section#container div:nth-child(1) {
+    animation-delay: -1.58s;
+    animation-duration: 6.92s;
+    font-size: 11.03vmin;
+    color: #b72adc;
+}
+
+section#container div:nth-child(2) {
+    animation-delay: -4.03s;
+    animation-duration: 4.9s;
+    font-size: 6.69vmin;
+    color: #82a0bf;
+}
+
+section#container div:nth-child(3) {
+    animation-delay: -8.51s;
+    animation-duration: 8.1s;
+    font-size: 14.64vmin;
+    color: #36a08c;
+}
+
+section#container div:nth-child(4) {
+    animation-delay: -8.87s;
+    animation-duration: 7.57s;
+    font-size: 14.11vmin;
+    color: #c7ffd6;
+}
+
+section#container div:nth-child(5) {
+    animation-delay: -4.15s;
+    animation-duration: 4.1s;
+    font-size: 17.47vmin;
+    color: #94e62b;
+}
+
+section#container div:nth-child(6) {
+    animation-delay: -0.9s;
+    animation-duration: 2.6s;
+    font-size: 17.07vmin;
+    color: #f30f4f;
+}
+
+section#container div:nth-child(7) {
+    animation-delay: -9.53s;
+    animation-duration: 8.86s;
+    font-size: 18.58vmin;
+    color: #dc365d;
+}
+
+section#container div:nth-child(8) {
+    animation-delay: -0.6s;
+    animation-duration: 2.52s;
+    font-size: 16.88vmin;
+    color: #c23734;
+}
+
+section#container div:nth-child(9) {
+    animation-delay: -2.9s;
+    animation-duration: 8.99s;
+    font-size: 8.72vmin;
+    color: #a62f21;
+}
+
+section#container div:nth-child(10) {
+    animation-delay: -8.63s;
+    animation-duration: 3.76s;
+    font-size: 19.42vmin;
+    color: #63aa61;
+}
+
+section#container div:nth-child(11) {
+    animation-delay: -4.15s;
+    animation-duration: 3.95s;
+    font-size: 9.83vmin;
+    color: #4b6382;
+}
+
+section#container div:nth-child(12) {
+    animation-delay: -7.61s;
+    animation-duration: 9.42s;
+    font-size: 9.51vmin;
+    color: #77e643;
+}
+
+section#container div:nth-child(13) {
+    animation-delay: -8.52s;
+    animation-duration: 9.1s;
+    font-size: 9.27vmin;
+    color: #123ea0;
+}
+
+section#container div:nth-child(14) {
+    animation-delay: -5.95s;
+    animation-duration: 6.32s;
+    font-size: 17.27vmin;
+    color: #bfd1e6;
+}
+
+section#container div:nth-child(15) {
+    animation-delay: -4.19s;
+    animation-duration: 8.37s;
+    font-size: 17.37vmin;
+    color: #78452e;
+}
+
+section#container div:nth-child(16) {
+    animation-delay: -5.08s;
+    animation-duration: 5.47s;
+    font-size: 9.47vmin;
+    color: #bf2f52;
+}
+
+section#container div:nth-child(17) {
+    animation-delay: -5.79s;
+    animation-duration: 5.4s;
+    font-size: 16.78vmin;
+    color: #3b5736;
+}
+
+section#container div:nth-child(18) {
+    animation-delay: -3.79s;
+    animation-duration: 5.71s;
+    font-size: 12.44vmin;
+    color: #6b5783;
+}
+
+section#container div:nth-child(19) {
+    animation-delay: -5.29s;
+    animation-duration: 9.28s;
+    font-size: 13.12vmin;
+    color: #1d1ec3;
+}
+
+section#container div:nth-child(20) {
+    animation-delay: -8.47s;
+    animation-duration: 4.85s;
+    font-size: 16.94vmin;
+    color: #12b528;
+}
+
+section#container div:nth-child(21) {
+    animation-delay: -6.14s;
+    animation-duration: 9.66s;
+    font-size: 15.5vmin;
+    color: #410fec;
+}
+
+section#container div:nth-child(22) {
+    animation-delay: -8s;
+    animation-duration: 4.32s;
+    font-size: 20.75vmin;
+    color: #a5876e;
+}
+
+section#container div:nth-child(23) {
+    animation-delay: -3.67s;
+    animation-duration: 8.23s;
+    font-size: 13.46vmin;
+    color: #dd2306;
+}
+
+section#container div:nth-child(24) {
+    animation-delay: -0.39s;
+    animation-duration: 8.37s;
+    font-size: 20.47vmin;
+    color: #4844ab;
+}
+
+section#container div:nth-child(25) {
+    animation-delay: -0.2s;
+    animation-duration: 9.83s;
+    font-size: 10.58vmin;
+    color: #4678bd;
+}
+
+section#container div:nth-child(26) {
+    animation-delay: -9.23s;
+    animation-duration: 5.59s;
+    font-size: 22.54vmin;
+    color: #e6e63b;
+}
+
+section#container div:nth-child(27) {
+    animation-delay: -8.04s;
+    animation-duration: 4.85s;
+    font-size: 23.55vmin;
+    color: #0b9d1d;
+}
+
+section#container div:nth-child(28) {
+    animation-delay: -7.17s;
+    animation-duration: 8.39s;
+    font-size: 19.33vmin;
+    color: #fc0c25;
+}
+
+section#container div:nth-child(29) {
+    animation-delay: -7.52s;
+    animation-duration: 7.92s;
+    font-size: 8.76vmin;
+    color: #3e87e5;
+}
+
+section#container div:nth-child(30) {
+    animation-delay: -8.56s;
+    animation-duration: 2.61s;
+    font-size: 14.4vmin;
+    color: #c2dbcd;
+}
+
+section#container div:nth-child(31) {
+    animation-delay: -3.21s;
+    animation-duration: 6.01s;
+    font-size: 23.42vmin;
+    color: #2478ac;
+}
+
+section#container div:nth-child(32) {
+    animation-delay: -8.66s;
+    animation-duration: 9.89s;
+    font-size: 14.87vmin;
+    color: #472f3c;
+}
+
+section#container div:nth-child(33) {
+    animation-delay: -8.07s;
+    animation-duration: 5.39s;
+    font-size: 7.4vmin;
+    color: #1a6fcd;
+}
+
+section#container div:nth-child(34) {
+    animation-delay: -2.64s;
+    animation-duration: 9.61s;
+    font-size: 10.61vmin;
+    color: #65b992;
+}
+
+section#container div:nth-child(35) {
+    animation-delay: -5.5s;
+    animation-duration: 3.08s;
+    font-size: 21.75vmin;
+    color: #cc14a7;
+}
+
+section#container div:nth-child(36) {
+    animation-delay: -6.14s;
+    animation-duration: 9.19s;
+    font-size: 15.31vmin;
+    color: #551293;
+}
+
+section#container div:nth-child(37) {
+    animation-delay: -0.51s;
+    animation-duration: 4.35s;
+    font-size: 15.78vmin;
+    color: #636aba;
+}
+
+section#container div:nth-child(38) {
+    animation-delay: -0.71s;
+    animation-duration: 2.28s;
+    font-size: 23.73vmin;
+    color: #4a3e13;
+}
+
+section#container div:nth-child(39) {
+    animation-delay: -2.2s;
+    animation-duration: 8.09s;
+    font-size: 17.85vmin;
+    color: #11c8b2;
+}
+
+section#container div:nth-child(40) {
+    animation-delay: -1.11s;
+    animation-duration: 8.49s;
+    font-size: 23.31vmin;
+    color: #4ad86f;
+}
+
+section#container div:nth-child(41) {
+    animation-delay: -8.71s;
+    animation-duration: 6.09s;
+    font-size: 10.63vmin;
+    color: #7802b4;
+}
+
+section#container div:nth-child(42) {
+    animation-delay: -4.17s;
+    animation-duration: 3.79s;
+    font-size: 23.56vmin;
+    color: #fc1c7d;
+}
+
+section#container div:nth-child(43) {
+    animation-delay: -3.17s;
+    animation-duration: 5.43s;
+    font-size: 12.73vmin;
+    color: #d61911;
+}
+
+section#container div:nth-child(44) {
+    animation-delay: -2.84s;
+    animation-duration: 8.02s;
+    font-size: 8.58vmin;
+    color: #3c4baf;
+}
+
+section#container div:nth-child(45) {
+    animation-delay: -3.02s;
+    animation-duration: 2.77s;
+    font-size: 9.24vmin;
+    color: #95ed24;
+}
+
+section#container div:nth-child(46) {
+    animation-delay: -3.39s;
+    animation-duration: 6.91s;
+    font-size: 7.8vmin;
+    color: #3f2bd2;
+}
+
+section#container div:nth-child(47) {
+    animation-delay: -3.98s;
+    animation-duration: 4.36s;
+    font-size: 6.6vmin;
+    color: #68ea1a;
+}
+
+section#container div:nth-child(48) {
+    animation-delay: -3.81s;
+    animation-duration: 6.56s;
+    font-size: 12.44vmin;
+    color: #283293;
+}
+
+section#container div:nth-child(49) {
+    animation-delay: -0.49s;
+    animation-duration: 5.75s;
+    font-size: 9.73vmin;
+    color: #6c3d12;
+}
+
+section#container div:nth-child(50) {
+    animation-delay: -7.09s;
+    animation-duration: 6.74s;
+    font-size: 6.05vmin;
+    color: #f2d2f1;
+}
+
+section#container div:nth-child(51) {
+    animation-delay: -7.89s;
+    animation-duration: 4.55s;
+    font-size: 20.52vmin;
+    color: #c038cd;
+}
+
+section#container div:nth-child(52) {
+    animation-delay: -7.72s;
+    animation-duration: 2.67s;
+    font-size: 4.09vmin;
+    color: #a370fd;
+}
+
+section#container div:nth-child(53) {
+    animation-delay: -9.92s;
+    animation-duration: 2.04s;
+    font-size: 18.82vmin;
+    color: #db5117;
+}
+
+section#container div:nth-child(54) {
+    animation-delay: -8.21s;
+    animation-duration: 7.66s;
+    font-size: 7.69vmin;
+    color: #470eb3;
+}
+
+section#container div:nth-child(55) {
+    animation-delay: -5.98s;
+    animation-duration: 2.19s;
+    font-size: 19.65vmin;
+    color: #d91c41;
+}
+
+section#container div:nth-child(56) {
+    animation-delay: -2.03s;
+    animation-duration: 6.01s;
+    font-size: 10.78vmin;
+    color: #9a446a;
+}
+
+section#container div:nth-child(57) {
+    animation-delay: -2.85s;
+    animation-duration: 7.72s;
+    font-size: 12.08vmin;
+    color: #ba8986;
+}
+
+section#container div:nth-child(58) {
+    animation-delay: -9.09s;
+    animation-duration: 6.75s;
+    font-size: 6.79vmin;
+    color: #c8874b;
+}
+
+section#container div:nth-child(59) {
+    animation-delay: -4.46s;
+    animation-duration: 2.93s;
+    font-size: 15.52vmin;
+    color: #04fb64;
+}
+
+section#container div:nth-child(60) {
+    animation-delay: -7.55s;
+    animation-duration: 2.62s;
+    font-size: 10.18vmin;
+    color: #74d33b;
+}
+
+section#container div:nth-child(61) {
+    animation-delay: -6.97s;
+    animation-duration: 7.89s;
+    font-size: 19.63vmin;
+    color: #c53e08;
+}
+
+section#container div:nth-child(62) {
+    animation-delay: -3.18s;
+    animation-duration: 6.34s;
+    font-size: 17.91vmin;
+    color: #a6c24c;
+}
+
+section#container div:nth-child(63) {
+    animation-delay: -0.46s;
+    animation-duration: 9.35s;
+    font-size: 14.39vmin;
+    color: #eddf0d;
+}
+
+section#container div:nth-child(64) {
+    animation-delay: -6.41s;
+    animation-duration: 5.75s;
+    font-size: 12.67vmin;
+    color: #9db5c1;
+}
+
+section#container div:nth-child(65) {
+    animation-delay: -0.8s;
+    animation-duration: 7.11s;
+    font-size: 7.95vmin;
+    color: #def881;
+}
+
+section#container div:nth-child(66) {
+    animation-delay: -9.28s;
+    animation-duration: 8.15s;
+    font-size: 20.33vmin;
+    color: #e7de07;
+}
+
+section#container div:nth-child(67) {
+    animation-delay: -3.5s;
+    animation-duration: 2.05s;
+    font-size: 5.62vmin;
+    color: #826d2f;
+}
+
+section#container div:nth-child(68) {
+    animation-delay: -3.4s;
+    animation-duration: 4.77s;
+    font-size: 18.97vmin;
+    color: #153809;
+}
+
+section#container div:nth-child(69) {
+    animation-delay: -2.37s;
+    animation-duration: 2.44s;
+    font-size: 7.87vmin;
+    color: #74be39;
+}
+
+section#container div:nth-child(70) {
+    animation-delay: -7.85s;
+    animation-duration: 2.7s;
+    font-size: 9.07vmin;
+    color: #57152a;
+}
+
+section#container div:nth-child(71) {
+    animation-delay: -4.44s;
+    animation-duration: 8.13s;
+    font-size: 19.05vmin;
+    color: #7172d8;
+}
+
+section#container div:nth-child(72) {
+    animation-delay: -7.98s;
+    animation-duration: 4.34s;
+    font-size: 4.31vmin;
+    color: #598bf0;
+}
+
+section#container div:nth-child(73) {
+    animation-delay: -9.12s;
+    animation-duration: 5.54s;
+    font-size: 10.9vmin;
+    color: #b25d91;
+}
+
+section#container div:nth-child(74) {
+    animation-delay: -4.31s;
+    animation-duration: 7.74s;
+    font-size: 23.39vmin;
+    color: #441228;
+}
+
+section#container div:nth-child(75) {
+    animation-delay: -0.2s;
+    animation-duration: 8.93s;
+    font-size: 18.37vmin;
+    color: #3781c7;
+}
+
+section#container div:nth-child(76) {
+    animation-delay: -3.73s;
+    animation-duration: 4.41s;
+    font-size: 5.84vmin;
+    color: #7bd423;
+}
+
+section#container div:nth-child(77) {
+    animation-delay: -6.15s;
+    animation-duration: 2.54s;
+    font-size: 19.34vmin;
+    color: #ed07c6;
+}
+
+section#container div:nth-child(78) {
+    animation-delay: -2.19s;
+    animation-duration: 8.87s;
+    font-size: 9.78vmin;
+    color: #057cf6;
+}
+
+section#container div:nth-child(79) {
+    animation-delay: -5.98s;
+    animation-duration: 9.87s;
+    font-size: 4.68vmin;
+    color: #7f9271;
+}
+
+section#container div:nth-child(80) {
+    animation-delay: -6.98s;
+    animation-duration: 2.42s;
+    font-size: 17.49vmin;
+    color: #2348f0;
+}
+
+section#container div:nth-child(81) {
+    animation-delay: -1.42s;
+    animation-duration: 2.32s;
+    font-size: 7.55vmin;
+    color: #530bd7;
+}
+
+section#container div:nth-child(82) {
+    animation-delay: -2.28s;
+    animation-duration: 2.58s;
+    font-size: 12.16vmin;
+    color: #2fad7e;
+}
+
+section#container div:nth-child(83) {
+    animation-delay: -6.58s;
+    animation-duration: 5.19s;
+    font-size: 9.82vmin;
+    color: #4b2550;
+}
+
+section#container div:nth-child(84) {
+    animation-delay: -5.16s;
+    animation-duration: 6.43s;
+    font-size: 22.29vmin;
+    color: #beb220;
+}
+
+section#container div:nth-child(85) {
+    animation-delay: -7.96s;
+    animation-duration: 4.4s;
+    font-size: 7.98vmin;
+    color: #bfe20b;
+}
+
+section#container div:nth-child(86) {
+    animation-delay: -6.56s;
+    animation-duration: 8.4s;
+    font-size: 12.87vmin;
+    color: #1c7887;
+}
+
+section#container div:nth-child(87) {
+    animation-delay: -9.29s;
+    animation-duration: 9.68s;
+    font-size: 16.87vmin;
+    color: #9b098a;
+}
+
+section#container div:nth-child(88) {
+    animation-delay: -8.89s;
+    animation-duration: 9.11s;
+    font-size: 19.1vmin;
+    color: #3cb5a3;
+}
+
+section#container div:nth-child(89) {
+    animation-delay: -6.03s;
+    animation-duration: 7.19s;
+    font-size: 23.91vmin;
+    color: #0e046a;
+}
+
+section#container div:nth-child(90) {
+    animation-delay: -3.96s;
+    animation-duration: 9.39s;
+    font-size: 5.34vmin;
+    color: #38299d;
+}
+
+section#container div:nth-child(91) {
+    animation-delay: -8.53s;
+    animation-duration: 3.83s;
+    font-size: 18.49vmin;
+    color: #408c9a;
+}
+
+section#container div:nth-child(92) {
+    animation-delay: -9.59s;
+    animation-duration: 8.44s;
+    font-size: 8.35vmin;
+    color: #e638c9;
+}
+
+section#container div:nth-child(93) {
+    animation-delay: -0.79s;
+    animation-duration: 2.29s;
+    font-size: 17.73vmin;
+    color: #e90e05;
+}
+
+section#container div:nth-child(94) {
+    animation-delay: -0.53s;
+    animation-duration: 8.9s;
+    font-size: 14.24vmin;
+    color: #6e44b0;
+}
+
+section#container div:nth-child(95) {
+    animation-delay: -6.42s;
+    animation-duration: 2.86s;
+    font-size: 13.62vmin;
+    color: #b3d5f4;
+}
+
+section#container div:nth-child(96) {
+    animation-delay: -9.96s;
+    animation-duration: 9.15s;
+    font-size: 16.79vmin;
+    color: #a8b9ab;
+}
+
+section#container div:nth-child(97) {
+    animation-delay: -8.49s;
+    animation-duration: 7.6s;
+    font-size: 18.39vmin;
+    color: #603197;
+}
+
+section#container div:nth-child(98) {
+    animation-delay: -2.14s;
+    animation-duration: 7.24s;
+    font-size: 21.06vmin;
+    color: #5aacc9;
+}
+
+section#container div:nth-child(99) {
+    animation-delay: -2.25s;
+    animation-duration: 9.54s;
+    font-size: 17.03vmin;
+    color: #ec5bed;
+}
+
+section#container div:nth-child(100) {
+    animation-delay: -2.83s;
+    animation-duration: 5.38s;
+    font-size: 12.89vmin;
+    color: #9e4f62;
+}
