@@ -1,0 +1,22 @@
+@charset "UTF-8";
+* {box-sizing: border-box;}
+
+article {
+    float: left;
+    width: calc(50% - 20px);
+    height: 35vh;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+footer {
+    clear: left;
+    background-color: #000;
+    color: #ccc;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    margin: 10px;
+}

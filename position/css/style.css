@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: antiquewhite;
+}
+section {
+    background-color: aquamarine;
+}
+article {
+    background-color: bisque;
+}
+.divBstatic {
+    background-color:rgb(226, 196, 255);
+    position: static;
+}
+.divBrelative {
+    background-color: rosybrown;
+    position: relative;
+}
+.divBabsolute {
+    background-color: rgb(206, 100, 100);
+    position: absolute;
+}
+.divBfixed {
+    background-color: seagreen;
+    position: fixed;
+}
+.divBsticky {
+    background-color: rgb(203, 222, 135);
+    position: sticky;
+}
+
+.topP {
+    top: 30px;
+}
+
+.bottomP {
+    bottom: 30px;
+}
+
+.leftP {
+    left: 30px;
+}
+
+.rightP {right: 30px;}
+
+.topM {
+    top: -30px;
+}
+
+.bottomM {
+    bottom: -30px;
+}
+
+.leftM {
+    left: -30px;
+}
+
+.rightM {right: -30px;}

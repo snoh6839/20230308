@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    border: 1px solid black;
+    width: 90vw;
+    height: 90vh;
+    overflow: scroll;
+}
+
+p {
+    border: 1px solid black;
+    overflow: hidden;
+    padding-bottom: 10%;
+    width: 500px;
+}
+
+#pos1 {
+    position: static;    
+}
+#pos2 , #pos3 {
+    position: relative;
+}
+
+#pos3 {
+    left: 75px;
+    top: -50px;
+
+}
+
+#pos4 {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 10vw;
+    height: 5vh;
+    background-color: #222;
+}
